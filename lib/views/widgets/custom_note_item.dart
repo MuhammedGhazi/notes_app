@@ -7,7 +7,7 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 16, left: 16, bottom: 16),
+      padding: const EdgeInsets.only(top: 16, left: 16, bottom: 16),
       decoration: BoxDecoration(
         color: const Color(0xffFFCC80),
         borderRadius: BorderRadius.circular(16),
@@ -25,7 +25,7 @@ class NoteItem extends StatelessWidget {
               child: Text(
                 "Build your career with muhammed ghazi",
                 style: TextStyle(
-                    color: Colors.black.withOpacity(.4), fontSize: 20),
+                    color: Colors.black.withOpacity(.4), fontSize: 18),
               ),
             ),
             trailing: IconButton(
